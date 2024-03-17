@@ -1,0 +1,168 @@
+nav{
+  float: right;
+}
+h1 {
+  font-family: "dogma-extra-outline", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h2
+{
+  font-family: "dogma-bold", sans-serif;
+  font-weight: 400;
+  font-style: normal;}
+
+p,nav
+{
+  font-family: "finalsix", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  background-color: #fefcbf
+}
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container */
+.container {
+  max-width: 1140px; /* Adjust as needed */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Typography */
+.text-center {
+  text-align: center;
+}
+
+.text-gray-500 {
+  color: #6b7280;
+}
+
+.text-gray-400 {
+  color: #9ca3af;
+}
+
+.text-3xl {
+  font-size: 1.875rem; /* Adjust as needed */
+  line-height: 2.25rem; /* Adjust as needed */
+}
+
+.text-2xl {
+  font-size: 1.5rem; /* Adjust as needed */
+  line-height: 1.75rem; /* Adjust as needed */
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.tracking-tighter {
+  letter-spacing: -0.025em; /* Adjust as needed */
+}
+
+/* Spacing */
+.py-12 {
+  padding-top: 3rem; /* Adjust as needed */
+  padding-bottom: 3rem; /* Adjust as needed */
+}
+
+.py-16 {
+  padding-top: 4rem; /* Adjust as needed */
+  padding-bottom: 4rem; /* Adjust as needed */
+}
+
+.py-24 {
+  padding-top: 6rem; /* Adjust as needed */
+  padding-bottom: 6rem; /* Adjust as needed */
+}
+
+.px-4 {
+  padding-left: 1rem; /* Adjust as needed */
+  padding-right: 1rem; /* Adjust as needed */
+}
+
+.md\:px-6 {
+  padding-left: 1.5rem; /* Adjust as needed */
+  padding-right: 1.5rem; /* Adjust as needed */
+}
+
+/* Grid */
+.grid {
+  display: grid;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+/* Flexbox */
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+/* Gap */
+.gap-6 {
+  gap: 1.5rem; /* Adjust as needed */
+}
+
+.gap-4 {
+  gap: 1rem; /* Adjust as needed */
+}
+
+.lg\:gap-8 {
+  gap: 2rem; /* Adjust as needed */
+}
+
+/* Images */
+.aspect-video {
+  aspect-ratio: 16 / 9; /* Adjust as needed */
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem; /* Adjust as needed */
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.object-center {
+  object-position: center;
+}
+
+/* Paragraph */
+.space-y-2 > p {
+  margin-top: 0.5rem; /* Adjust as needed */
+  margin-bottom: 0.5rem; /* Adjust as needed */
+}
+
+/* Dark mode */
+.dark\:text-gray-400 {
+  color: #9ca3af; /* Adjust as needed */
+}
+
+.dark\:text-gray-500 {
+  color: #6b7280; /* Adjust as needed */
+}
